@@ -28,9 +28,9 @@ jobs:
 
       - name: Print ENV vars
         run: |
-          echo: "GH Actor: ${{ github.actor }}"
-          echo: "Repo: ${{ github.repository }}"
-          echo: "Branch: ${{ github.ref }}"
+          echo "GH Actor: ${{ github.actor }}"
+          echo "Repo: ${{ github.repository }}"
+          echo "Branch: ${{ github.ref }}"
 
       - name: Print Working Directory
         run: pwd
