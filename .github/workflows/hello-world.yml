@@ -27,7 +27,7 @@ jobs:
           echo "Kernel: $(uname -r)"
 
       - name: Print ENV vars
-        run : |
+        run: |
           echo: "GH Actor: ${{ github.actor }}"
           echo: "Repo: ${{ github.repository }}"
           echo: "Branch: ${{ github.ref }}"
